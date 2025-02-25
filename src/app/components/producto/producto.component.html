@@ -1,0 +1,5 @@
+<p [ngClass]="{'descuento':producto.onSale,'noDescuento':!producto.onSale}">{{producto.name}} {{producto.price}}   </p>
+<p class = agotado *ngIf="producto.inStock;else otroCaso">    Agotado :c </p>
+<ng-template #otroCaso>
+en Stock c:
+</ng-template>

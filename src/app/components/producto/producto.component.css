@@ -1,0 +1,17 @@
+.descuento
+{
+    color:green;
+}
+
+.noDescuento{
+    color:blueviolet;
+}
+
+.agotado{
+    color:red;
+}
+
+p{
+    display: inline-block;
+    margin-left:5px;
+}

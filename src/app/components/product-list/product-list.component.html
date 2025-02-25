@@ -1,0 +1,6 @@
+
+<ul>
+    <li class="encima" *ngFor = "let producto of productos" (click) = muestraInfo(producto) > <app-producto [producto] = "producto" > </app-producto> </li>
+    
+</ul>
+<app-detalle [producto]="seleccionado"> </app-detalle>
